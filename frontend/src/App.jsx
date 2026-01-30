@@ -4,6 +4,7 @@ import Tasks from './Pages/Tasks'
 import { Route, Routes } from 'react-router-dom'
 import Rank from './Pages/Rank'
 import Activity from './Pages/Activity'
+import Profile from './Pages/Profile'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/task' element={<Tasks />} />
         <Route path='/rank' element={<Rank />} />
         <Route path='/activity' element={<Activity />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
     </div>
   )
