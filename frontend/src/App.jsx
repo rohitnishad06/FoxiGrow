@@ -6,7 +6,12 @@ import Rank from './Pages/Rank'
 import Activity from './Pages/Activity'
 import Profile from './Pages/Profile'
 
+export const serverURL = 'http://localhost:5000';
+
 function App() {
+
+
+
   return (
     <div className="max-w-[390px] min-h-screen mx-auto bg-black text-white pb-20">
       <Routes>
